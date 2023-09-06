@@ -1,0 +1,97 @@
+/* removes margin padding added by browser */
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    width: 100%;
+    /* padding on all sides */
+    padding: 2%;
+}
+
+.mt-1 {
+    margin-top: 1%;
+}
+
+.bg-pink {
+    background-color: #FFB6C1;
+}
+
+.bg-grey {
+    background-color: #eee;
+}
+
+button {
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+}
+
+.col-20 {
+    width: 10% !important;
+    float: left;
+}
+
+.col-50 {
+    width: 50% !important;
+    float: left;
+}
+
+.col-80 {
+    width: 80% !important;
+    float: left;
+}
+
+.navigation {
+    text-align: center;
+    padding: 1%;
+}
+
+.logo-nav {
+    height: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about {
+    height: 220px;
+}
+
+.empty-box {
+    height: 200px;
+    width: 80%;
+    background-color: #fff;
+}
+
+.about-title {
+    margin-top: 4%;
+}
+
+.about-title p,
+button {
+    margin-top: 2%;
+}
+
+.services {
+    height: 100px;
+}
+
+.services .bg-pink {
+    margin-left: 8%;
+}
+
+.services-box {
+    height: 100px;
+    width: 100px;
+}
